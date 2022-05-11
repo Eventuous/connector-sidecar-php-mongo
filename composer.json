@@ -1,0 +1,15 @@
+{
+  "name": "eventuous/connector-sidecar-mongo",
+  "description": "Eventuous Connector sidecar gRPC example for PHP",
+  "require": {
+    "grpc/grpc": "^v1.39.0",
+    "google/protobuf": "^v3.12.2",
+    "aimeos/map": "^3.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Projection\\": "grpc_projector/Projection/",
+      "GPBMetadata\\": "grpc_projector/GPBMetadata/"
+    }
+  }
+}
